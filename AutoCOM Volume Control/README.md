@@ -24,18 +24,17 @@ This project allows automatic detection of the correct COM port for an Arduino a
     ```sh
     pip install -r requirements.txt
     ```
+3. **Replace 'COM__'** with your Arduino's serial port, by editing the **main.py**
 
 ## Usage
 1. **Connect your Arduino** with a potentiometer to your computer.
-   
-2. **Replace 'COM__'** with your Arduino's serial port, by editing the **main.py**
 
-3. **Run the script**:
+2. **Run the script**:
     ```sh
     python main.py
     ```
 
-5. **Adjust the potentiometer** to control the volume level.
+3. **Adjust the potentiometer** to control the volume level.
 
 ## Code Explanation
 The script performs the following tasks:
